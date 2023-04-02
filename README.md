@@ -94,4 +94,4 @@ IoT sending data live to Co2storage through our Co2 Storage Handler
 
 ![Filecoin](readme_images/filecoin.png)
 
-![Big Data Exchange](readme_images\bde.png)
+![Big Data Exchange](readme_images/bde.png)
