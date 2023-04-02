@@ -82,7 +82,7 @@ The IoT device Prototype
 
 ![The_IoT_device](ImageGallery/2.jpeg)
 
-IoT sending data live to Web3storage and our Co2 Storage Handler
+IoT sending data live to Co2storage through our Co2 Storage Handler
 
 ![IoT_sending_data_live_to__co2storage_through_handler](ImageGallery/3.jpeg)
 
