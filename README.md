@@ -68,7 +68,7 @@ Hedera enabled us to build a scalable blockchain ecosystem, with minimal transac
 
 
 # Open Data at Bigdata.io
-The data collected from the Chemotron IoT devices includes various climate details such as humidity, temperature, pressure, Carbon Dioxide(CO2), Carbon Monoxide (CO), and methane (Ch4). The data is likely collected at regular intervals and sent to **co2.storage** through our co2 storage handler service for storage and Futher analysis.
+The data collected from the Chemotron IoT devices includes various climate details such as humidity, temperature, pressure, Carbon Dioxide(CO2), Carbon Monoxide (CO), and methane (Ch4). The data is collected at regular intervals and sent to **co2.storage** through our co2 storage handler service for storage and Futher analysis.
 
 The data is stored in a time series format, where each row represents a specific time point and contains information about the climate conditions at that time. In addition, the data includes information about the specific location of each IoT device, which could be useful for spatial analysis.
 
