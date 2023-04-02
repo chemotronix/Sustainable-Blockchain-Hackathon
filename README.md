@@ -2,14 +2,73 @@
 
 Chevtrox is a unique blend of IoT, A.I and Blockchain, which fosters the reduction of carbon emissions in Africa, allowing users to trade carbon credits. 
 
-A company that wishes to use the services of Chemotronix receives an IoT device, this IoT device has a unique ID that is registered on the blockchain. With this unique ID, users and companies can track their carbon emissions which are funnelled to co2.storage by Filecoin and are processed in the blockchain such that the carbon credits associated with the device are burned. With the unique ID, users can transfer and share carbon credits(**an ERC-20 token**) among themselves without needing to remember their lengthy wallet addresses.
+A company that wishes to use the services of Chevtrox receives an IoT device, this IoT device has a unique ID that is registered on the blockchain. With this unique ID, users and companies can track their carbon emissions which are funnelled to co2.storage by Filecoin and are processed in the blockchain such that the carbon credits associated with the device are burned. With the unique ID, users can transfer and share carbon credits(**an ERC-20 token**) among themselves without needing to remember their lengthy wallet addresses.
 
 The carbon emissions data from the IoT device is saved to co2.storage by Filecoin, instead of traditional cloud storage, to avoid a single point of failure and maintain transparency. The data is to remain open and **autioned on Bigdata.io**
 
 The data from the IoT device is also analyzed using A.I such that stakeholders can forecast carbon emissions and take actions 
 to gradually reduce it.
 
-# Blockchain technologies deployed at Chemotronix
+# About C02 Storage Handler
+
+Our Co2 storage handler handles interaction between the IoT and co2.storage, we stream our IoT data and funnel it to co2.storage with a custom built template.
+
+## Chevtrox Custom Schema
+
+```
+{
+  "Id": {
+      "type": "int",
+      "mandatory": true
+    },
+    "Created At": {
+      "type": "datetime",
+      "mandatory": true
+    },
+    "Temperature": {
+      "type": "float",
+      "mandatory": true
+    },
+    "Humidity": {
+      "type": "float",
+      "mandatory": true
+    },
+    "Pressure": {
+      "type": "float",
+      "mandatory": true
+    },
+    "Altitude": {
+      "type": "float",
+      "mandatory": true
+    },
+    "Carbon Monoxide": {
+      "type": "float",
+      "mandatory": true
+    },
+    "Methane": {
+      "type": "float",
+      "mandatory": true
+    },
+    "Carbon Dioxide": {
+      "type": "float",
+      "mandatory": true
+    },
+    "Total Emissions Per hour": {
+      "type": "float",
+      "mandatory": true
+    }
+  }
+
+```
+
+
+# Blockchain technologies deployed at Hedera
+
+Hedera enabled us to build a scalable blockchain ecosystem, with minimal transaction fees. Hedera was used to create a token, which essentially serves as carbon credits for users to trade on the blockchain, enabling carbon emitters to effectively offset their carbon emissions as they were tracked by the IoT device.
+
+
+# Open Data at Bigdata.io
+The data collected from the Chemotron IoT devices includes various climate details such as humidity, temperature, pressure, Carbon Dioxide(CO2), Carbon Monoxide (CO), and methane (Ch4). The data is likely collected at regular intervals and sent to **co2.storage** through our co2 storage handler service for storage and Futher analysis.
 
 The data is stored in a time series format, where each row represents a specific time point and contains information about the climate conditions at that time. In addition, the data includes information about the specific location of each IoT device, which could be useful for spatial analysis.
 
