@@ -23,11 +23,13 @@ The IoT device Prototype
 
 ![The_IoT_device](ImageGallery/2.jpeg)
 
-IoT sending data live to Web3storage
+IoT sending data live to Web3storage and our Co2 Storage Handler
 
-![IoT_sending_data_live_to_Web3storage](ImageGallery/3.jpeg)
+![IoT_sending_data_live_to_Web3storage_and_co2storage_handler](ImageGallery/3.jpeg)
 
 # Major Blockchain Technologies Used
+
+![Co2_Storage](readme_images/co2_storage.png)
 
 ![Polygon](readme_images/polygon.png)
 
