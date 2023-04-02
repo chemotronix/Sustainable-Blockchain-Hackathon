@@ -1,6 +1,6 @@
-# About Chemotronix
+# About Chevtrox
 
-Chemotronix is a unique blend of IoT, A.I and Blockchain, which fosters the reduction of carbon emissions in Africa, allowing users to trade carbon credits. 
+Chevtrox is a unique blend of IoT, A.I and Blockchain, which fosters the reduction of carbon emissions in Africa, allowing users to trade carbon credits. 
 
 A company that wishes to use the services of Chemotronix receives an IoT device, this IoT device has a unique ID that is registered on the blockchain. With this unique ID, users and companies can track their carbon emissions which are immutably stored on web3storage(IPFS) by Filecoin and are processed in the blockchain such that the carbon credits associated with the device are burned periodically. With the unique ID, users can transfer and share carbon credits(**an ERC-20 token**) among themselves without needing to remember their lengthy wallet addresses.
 
@@ -9,7 +9,7 @@ The carbon emissions data from the IoT device is saved to web3storage(built on I
 The data from the IoT device is also analyzed using A.I such that stakeholders can forecast carbon emissions and take actions 
 to gradually reduce it.
 
-# Blockchain technologies deployed at Chemotronix
+# Blockchain technologies deployed for Chevtrox
 
 Polygon enabled us to build a scalable blockchain ecosystem, with minimal transaction fees. Polygon was used to create an ERC-20 token called CMX, which essentially serves as carbon credits for users to trade on the blockchain, enabling carbon emitters to effectively offset their carbon emissions as they were tracked by the IoT device.
 
