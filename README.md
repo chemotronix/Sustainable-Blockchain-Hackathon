@@ -2,7 +2,7 @@
 
 Chevtrox is a unique blend of IoT, A.I and Blockchain, which fosters the reduction of carbon emissions in Africa, allowing users to trade carbon credits. 
 
-A company that wishes to use the services of Chevtrox receives an IoT device, this IoT device has a unique ID that is registered on the blockchain. With this unique ID, users and companies can track their carbon emissions which are funnelled to co2.storage by Filecoin and are processed in the blockchain such that the carbon credits associated with the device are burned. With the unique ID, users can transfer and share carbon credits(**an ERC-20 token**) among themselves without needing to remember their lengthy wallet addresses.
+A company that wishes to use the services of Chevtrox receives an IoT device, this IoT device has a unique ID that is registered on the blockchain. With this unique ID, users and companies can track their carbon emissions which are funnelled to co2.storage by Filecoin and are processed in the blockchain such that the carbon credits associated with the device are burned. With the unique ID, users can transfer and share carbon credits among themselves without needing to remember their lengthy wallet addresses.
 
 The carbon emissions data from the IoT device is saved to co2.storage by Filecoin, instead of traditional cloud storage, to avoid a single point of failure and maintain transparency. The data is to remain open and **autioned on Bigdata.io**
 
@@ -64,7 +64,7 @@ Our Co2 storage handler handles interaction between the IoT and co2.storage, we 
 
 # Blockchain technologies deployed at Hedera
 
-Hedera enabled us to build a scalable blockchain ecosystem, with minimal transaction fees. Hedera was used to create a token, which essentially serves as carbon credits for users to trade on the blockchain, enabling carbon emitters to effectively offset their carbon emissions as they were tracked by the IoT device.
+Hedera enabled us to build a scalable blockchain ecosystem, with minimal transaction fees. Hedera was used to create a token, which will interact with the standard hedera token service, and it essentially serves as carbon credits for users to mint, trade on the blockchain, enabling carbon emitters to burn credits when they want to effectively offset their carbon emissions as tracked by the IoT device.
 
 
 # Open Data at Bigdata.io
