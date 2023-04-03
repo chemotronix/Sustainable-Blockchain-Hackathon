@@ -4,12 +4,12 @@ Chevtrox is a unique blend of IoT, A.I and Blockchain, which fosters the reducti
 
 A company that wishes to use the services of Chevtrox receives an IoT device, this IoT device has a unique ID that is registered on the blockchain. With this unique ID, users and companies can track their carbon emissions which are funnelled to co2.storage by Filecoin and are processed in the blockchain such that the carbon credits associated with the device are burned. With the unique ID, users can transfer and share carbon credits among themselves without needing to remember their lengthy wallet addresses.
 
-The carbon emissions data from the IoT device is saved to co2.storage by Filecoin, instead of traditional cloud storage, to avoid a single point of failure and maintain transparency. The data is to remain open and **autioned on Bigdata.io**
+The carbon emissions data from the IoT device is saved to co2.storage by Filecoin, instead of traditional cloud storage, to avoid a single point of failure and maintain transparency. The data is to remain open and **auctioned on Bigdata.io**
 
 The data from the IoT device is also analyzed using A.I such that stakeholders can forecast carbon emissions and take actions 
 to gradually reduce it.
 
-# About C02 Storage Handler
+# Our C02 Storage Handler Service
 
 Our Co2 storage handler handles interaction between the IoT and co2.storage, we stream our IoT data and funnel it to co2.storage with a custom built template.
 

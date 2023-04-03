@@ -50,11 +50,11 @@ Our Co2 storage handler handles interaction between the IoT and co2.storage, we 
 
 ```
 
-# IoT Images
+# Asset Images
 
 The IoT device Prototype
 
-![Chemotronix Asset on Co2.storage](ImageGallery/asset1.png)
+![Chemotronix Asset on Co2.storage](asset1.png)
 
 
 
